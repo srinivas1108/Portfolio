@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Srinivas Mekala | Java Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom animations for modern effects */
+        .fade-in {
+            animation: fadeIn 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="font-['Roboto'] bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between p-5 bg-blue-600 text-white">
+        <a href="#home" class="text-2xl font-bold">Sai Srinivas Mekala</a>
+        <ul class="hidden space-x-6 md:flex">
+            <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+            <li><a href="#about" class="hover:text-gray-200">About</a></li>
+            <li><a href="#experience" class="hover:text-gray-200">Experience</a></li>
+            <li><a href="#projects" class="hover:text-gray-200">Projects</a></li>
+            <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Profile Image -->
+    <section id="home" class="flex flex-col items-center justify-center min-h-screen text-center bg-gradient-to-r from-blue-500 to-blue-700 text-white px-5 py-20 fade-in">
+        <img src="your-image.jpg" alt="Your Profile Picture" class="w-32 h-32 rounded-full shadow-lg border-4 border-white mb-6">
+        <h1 class="text-4xl font-bold md:text-6xl">Hello, I'm Sai Srinivas Mekala</h1>
+        <p class="mt-4 text-lg md:text-2xl">Java Developer | Expertise in Spring Boot, Hibernate, Microservices</p>
+        <a href="#contact" class="mt-8 px-6 py-3 bg-white text-blue-500 rounded-full text-lg font-semibold hover:bg-blue-600 hover:text-white transition duration-300">Contact Me</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-5 bg-white text-center">
+        <h2 class="text-3xl font-semibold text-gray-800 fade-in">About Me</h2>
+        <p class="mt-4 max-w-3xl mx-auto text-gray-600 fade-in">Innovative Java Developer with expertise in Spring Boot, Hibernate, and Microservices. Proficient in SQL, user-friendly interfaces with ReactJS, and excellent debugging skills. Known for a proactive approach to problem-solving and delivering scalable solutions that meet business objectives.</p>
+    </section>
+
+    <!-- Experience Section with Card Hover Effect -->
+    <section id="experience" class="py-20 bg-gray-100 px-5">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 fade-in">Work Experience</h2>
+        <div class="mt-10 max-w-5xl mx-auto bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 fade-in">
+            <h3 class="text-xl font-semibold text-blue-600">Java Developer – Accenture</h3>
+            <p class="text-gray-500">Oct 2021 - Present</p>
+            <p class="mt-4 text-gray-700">Project: FRMCI (Fraud-Related-Management-Connector-Implementation)</p>
+            <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                <li>Implemented Microservices using Spring Boot to process fraud alerts, reducing fraud response time by 40%.</li>
+                <li>Engineered data pipelines with Hibernate ORM, enhancing database performance by 25%.</li>
+                <li>Developed Junit test cases, reducing production bugs by 40% and increasing user satisfaction.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white px-5">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 fade-in">Projects</h2>
+        <div class="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+            <div class="p-6 bg-gray-100 rounded-lg shadow-lg hover:shadow-xl transition duration-300 fade-in">
+                <h3 class="text-xl font-semibold text-blue-600">Personal Finance Management System</h3>
+                <p class="mt-4 text-gray-600">A full-stack application to manage income, expenses, and budgets using Spring Boot, ReactJS, and MySQL.</p>
+            </div>
+            <div class="p-6 bg-gray-100 rounded-lg shadow-lg hover:shadow-xl transition duration-300 fade-in">
+                <h3 class="text-xl font-semibold text-blue-600">Payment Gateway Integration</h3>
+                <p class="mt-4 text-gray-600">Integrated payment gateways in an E-Commerce app with Spring Boot, JavaScript, and SQL.</p>
+            </div>
+            <div class="p-6 bg-gray-100 rounded-lg shadow-lg hover:shadow-xl transition duration-300 fade-in">
+                <h3 class="text-xl font-semibold text-blue-600">Task Management Application</h3>
+                <p class="mt-4 text-gray-600">A task organizer with a Spring Boot backend and ReactJS frontend, using MySQL.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with "Buy Me a Coffee" Button -->
+    <section id="contact" class="py-20 bg-gray-100 text-center px-5">
+        <h2 class="text-3xl font-semibold text-gray-800 fade-in">Contact Me</h2>
+        <p class="mt-4 text-gray-600 fade-in">Phone: 7981308409 | Email: <a href="mailto:saisrinivasmekala8@gmail.com" class="text-blue-600 hover:underline">saisrinivasmekala8@gmail.com</a></p>
+        <p class="mt-2 fade-in"><a href="https://linkedin.com/in/saisrinivasmekala" target="_blank" class="text-blue-600 hover:underline">LinkedIn Profile</a></p>
+        
+        <!-- Buy Me a Coffee Button -->
+        <a href="https://www.buymeacoffee.com/yourusername" target="_blank" class="inline-block mt-6 px-5 py-3 bg-yellow-400 text-black rounded-full font-semibold hover:bg-yellow-500 transition duration-300 fade-in">
+            Buy Me a Coffee
+        </a>
+    </section>
+
+</body>
+</html>
